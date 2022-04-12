@@ -13,3 +13,9 @@ int main()
     std::cout << '\n' << std::fixed << std::setprecision(10) <<
         "Task4: " << task5(pow) << '\n';
 }
+double task5(int pow) {
+    double result;
+    result = fifth(pow);
+    return result;
+    return 0;
+}
